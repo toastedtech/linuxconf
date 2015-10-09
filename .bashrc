@@ -114,5 +114,14 @@ if ! shopt -oq posix; then
 fi
 
 alias create-tmux='tmux new -s $(basename $(pwd))'
+
+
+alias dd-jump='ssh -A ddineen@54.229.59.5'
+alias dd-dev='ssh -A ddineen@54.229.59.5'
+
 alias ddiiq-jump='ssh -AL 8010:localhost:8010 ddineen@54.229.59.5'
 alias ddiiq-dev='ssh -AL 8010:localhost:8010 ddineen@bb-dev-idm-01'
+
+alias atlasiq-jump='ssh -AL 8310:localhost:8310 ddineen@54.229.59.5'
+alias atlasiiq-qa='ssh -AL 8310:localhost:8310 ddineen@bb-dev-idm-01'
+
