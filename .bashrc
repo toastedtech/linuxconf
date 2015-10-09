@@ -124,7 +124,7 @@ alias bb-jump-ddiiq='ssh -AL 8010:localhost:8010 ddineen@54.229.59.5'
 alias bb-dev-ddiiq='ssh -AL 8010:localhost:8010 ddineen@bb-dev-idm-01'
 
 alias bb-jump-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@54.229.59.5'
-alias bb-qa-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@bb-dev-idm-01'
+alias bb-qa-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@bb-qa-idm-01'
 
 alias bb-jump-sfiiq='ssh -AL 8040:localhost:8040 ddineen@54.229.59.5'
-alias bb-qa-sfiiq='ssh -AL 8040:localhost:8040 ddineen@bb-dev-idm-01'
+alias bb-dev-sfiiq='ssh -AL 8040:localhost:8040 ddineen@bb-dev-idm-01'
