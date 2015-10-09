@@ -112,3 +112,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias create-tmux='tmux new -s $(basename $(pwd))'
