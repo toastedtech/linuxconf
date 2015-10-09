@@ -1,0 +1,9 @@
+[user]
+	name = Dave Dineen
+    email = dave.t.dineen@gmail.com
+
+[merge]
+    tool = mymeld
+    conflictstyle = diff3
+[mergetool "mymeld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE"
