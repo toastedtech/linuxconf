@@ -10,8 +10,10 @@ Plugin 'gmarik/vundle'
 
 " We could also add repositories with a ".git" extension
 Plugin 'scrooloose/nerdtree.git'
-
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'jlanzarotta/bufexplorer'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Bundle 'desert-warm-256'
 
 " To get plugins from Vim Scripts, you can reference the plugin
 " by name as it appears on the site
@@ -93,8 +95,9 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme desert
 set background=dark
+"colorscheme desert 
+colorscheme elflord
 
 " Set extra options when running in GUI mode
 if has("gui_running")
