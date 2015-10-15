@@ -119,6 +119,7 @@ alias gst='git status'
 alias bb-jump='ssh -A ddineen@54.229.59.5'
 alias bb-dev='ssh -A ddineen@bb-dev-idm-01'
 alias bb-qa='ssh -A ddineen@bb-qa-idm-01'
+alias bb-uat='ssh -A ddineen@bb-uat-idm-01'
 
 alias bb-jump-ddiiq='ssh -AL 8010:localhost:8010 ddineen@54.229.59.5'
 alias bb-dev-ddiiq='ssh -AL 8010:localhost:8010 ddineen@bb-dev-idm-01'
