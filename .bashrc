@@ -124,6 +124,9 @@ alias bb-uat='ssh -A ddineen@bb-uat-idm-01'
 alias bb-jump-ddiiq='ssh -AL 8010:localhost:8010 ddineen@54.229.59.5'
 alias bb-dev-ddiiq='ssh -AL 8010:localhost:8010 ddineen@bb-dev-idm-01'
 
+alias bb-jump-jenkins='ssh -AL 8810:localhost:8810 ddineen@54.229.59.5'
+alias bb-dev-jenkins='ssh -AL 8810:localhost:8810 ddineen@bb-qa-idm-01'
+
 alias bb-jump-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@54.229.59.5'
 alias bb-qa-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@bb-qa-idm-01'
 
