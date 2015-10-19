@@ -134,4 +134,4 @@ alias bb-jump-jtiiq='ssh -AL 8110:localhost:8110 ddineen@54.229.59.5'
 alias bb-dev-jtiiq='ssh -AL 8110:localhost:8110 ddineen@bb-dev-idm-01'
 
 alias bb-jump-qaiiq='ssh -AL 8910:localhost:8910 ddineen@54.229.59.5'
-alias bb-qa-qaiiq='ssh -AL 8910:localhost:8910 ddineen@bb-dev-idm-01'
+alias bb-qa-qaiiq='ssh -AL 8910:localhost:8910 ddineen@bb-qa-idm-01'
