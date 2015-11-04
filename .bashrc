@@ -138,3 +138,8 @@ alias bb-dev-jtiiq='ssh -AL 8110:localhost:8110 ddineen@bb-dev-idm-01'
 
 alias bb-jump-qaiiq='ssh -AL 8910:localhost:8910 ddineen@54.229.59.5'
 alias bb-qa-qaiiq='ssh -AL 8910:localhost:8910 ddineen@bb-qa-idm-01'
+
+alias bb-ad='ssh -AL 1389:10.30.108.185:389 ddineen@54.229.59.5'
+alias bb-adssl='ssh -AL 1636:10.30.108.185:636 ddineen@54.229.59.5'
+
+alias bb-vnc-='ssh -AL 5901:localhost:5901 ddineen@54.229.59.5'
