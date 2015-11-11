@@ -146,3 +146,7 @@ alias bb-vnc-='ssh -AL 5901:localhost:5901 ddineen@54.229.59.5'
 
 alias bb-jump-uatiiq='ssh -AL 8080:localhost:8080 ddineen@54.229.59.5'
 alias bb-uat-uatiiq='ssh -AL 8080:localhost:8080 ddineen@bb-uat-idm-01'
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
