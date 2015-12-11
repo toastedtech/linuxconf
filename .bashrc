@@ -119,12 +119,36 @@ alias gst='git status'
 alias bb-jump='ssh -A ddineen@54.229.59.5'
 alias bb-dev='ssh -A ddineen@bb-dev-idm-01'
 alias bb-qa='ssh -A ddineen@bb-qa-idm-01'
+alias bb-uat='ssh -A ddineen@bb-uat-idm-01'
 
 alias bb-jump-ddiiq='ssh -AL 8010:localhost:8010 ddineen@54.229.59.5'
 alias bb-dev-ddiiq='ssh -AL 8010:localhost:8010 ddineen@bb-dev-idm-01'
+
+alias bb-jump-jenkins='ssh -AL 8810:localhost:8810 ddineen@54.229.59.5'
+alias bb-qa-jenkins='ssh -AL 8810:localhost:8810 ddineen@bb-qa-idm-01'
 
 alias bb-jump-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@54.229.59.5'
 alias bb-qa-atlasiiq='ssh -AL 8310:localhost:8310 ddineen@bb-qa-idm-01'
 
 alias bb-jump-sfiiq='ssh -AL 8040:localhost:8040 ddineen@54.229.59.5'
 alias bb-dev-sfiiq='ssh -AL 8040:localhost:8040 ddineen@bb-dev-idm-01'
+
+alias bb-jump-jtiiq='ssh -AL 8110:localhost:8110 ddineen@54.229.59.5'
+alias bb-dev-jtiiq='ssh -AL 8110:localhost:8110 ddineen@bb-dev-idm-01'
+
+alias bb-jump-qaiiq='ssh -AL 8910:localhost:8910 ddineen@54.229.59.5'
+alias bb-qa-qaiiq='ssh -AL 8910:localhost:8910 ddineen@bb-qa-idm-01'
+
+alias bb-ad='ssh -AL 1389:10.30.108.185:389 ddineen@54.229.59.5'
+alias bb-adssl='ssh -AL 1636:10.30.108.185:636 ddineen@54.229.59.5'
+
+alias bb-vnc-='ssh -AL 5901:localhost:5901 ddineen@54.229.59.5'
+
+alias bb-jump-uatiiq='ssh -AL 8080:localhost:8080 ddineen@54.229.59.5'
+alias bb-uat-uatiiq='ssh -AL 8080:localhost:8080 ddineen@bb-uat-idm-01'
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+alias tt-deploy='ssh -A deploy@178.62.94.244'
