@@ -132,9 +132,9 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
@@ -369,6 +369,10 @@ endfunction
 
 :set number
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDTree customizations 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
@@ -384,4 +388,9 @@ let g:NERDTreeIndicatorMapCustom = {
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-map <C-n> :NERDTreeToggle<CR>
+map <leader>nt :NERDTreeToggle<cr>
+
+let g:NERDTreeWinSize = 40 
+
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
