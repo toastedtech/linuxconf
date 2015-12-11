@@ -97,7 +97,9 @@ syntax enable
 
 set background=dark
 "colorscheme desert 
-colorscheme elflord
+let g:solarized_termcolors = 256  " New line!!
+colorscheme  solarized
+
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -133,8 +135,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
