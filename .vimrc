@@ -134,7 +134,7 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
+" 1 tab == 2 spaces
 set shiftwidth=2
 set tabstop=2
 
@@ -371,6 +371,10 @@ endfunction
 
 :set number
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDTree customizations 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
@@ -386,11 +390,14 @@ let g:NERDTreeIndicatorMapCustom = {
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-map <C-n> :NERDTreeToggle<CR>
-
-" setup jave compile
 autocmd Filetype java set makeprg=javac\ %
 set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
 map <F9> :make<Return>:copen<Return>
 map <F10> :cprevious<Return>
 map <F11> :cnext<Return>
+map <leader>nt :NERDTreeToggle<cr>
+
+let g:NERDTreeWinSize = 40 
+
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
