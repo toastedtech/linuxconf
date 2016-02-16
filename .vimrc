@@ -240,6 +240,9 @@ if has("mac") || has("macunix")
   vmap <D-k> <M-k>
 endif
 
+" Show trailing  white space as red
+:match Error /\s\+$/
+
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
   exe "normal mz"
